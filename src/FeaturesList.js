@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import slugify from 'slugify';
-import Features from './Features';
+import Feature from './Feature';
 
 const USCurrencyFormat = new Intl.NumberFormat('en-US', {
     style: 'currency',
@@ -14,7 +14,7 @@ class FeaturesList extends React.Component {
         const features = Object.keys(this.props.features).map((feature, idx) => {
             const featureHash = feature + '-' + idx;
 
-            return <Features featureHash={featureHash} currentFeature={feature} features={this.props.features} updateFeature={this.props.updateFeature} selected={this.props.selected} />
+            return <Feature featureHash={featureHash} currentFeature={feature} features={this.props.features} updateFeature={this.props.updateFeature} selected={this.props.selected} />
           });
 
 
