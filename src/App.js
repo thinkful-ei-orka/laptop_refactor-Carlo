@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 import './App.css';
-import FeaturesList from './FeaturesList';
-import Summary from './Summary';
+import FeaturesList from './Components/FeaturesList/FeaturesList';
+import Summary from './Components/Summary/Summary';
 
 class App extends Component {
   state = {
