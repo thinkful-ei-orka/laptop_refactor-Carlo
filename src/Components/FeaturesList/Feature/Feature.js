@@ -1,6 +1,6 @@
 import React from 'react';
 import slugify from 'slugify';
-import Option from './Options';
+import Option from '../Option/Options';
 
 class Feature extends React.Component { 
     render() {

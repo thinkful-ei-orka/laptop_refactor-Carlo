@@ -1,6 +1,6 @@
 import React from 'react';
-import CartEntry from './CartEntry';
-import Total from './Total';
+import CartEntry from './CartEntry/CartEntry';
+import Total from './Total/Total';
 
 class Summary extends React.Component { 
 
