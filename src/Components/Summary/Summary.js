@@ -9,7 +9,7 @@ class Summary extends React.Component {
             const featureHash = feature + '-' + idx;
             const selectedOption = this.props.selected[feature];
             
-            return <CartEntry featureHash={featureHash} selectedOption={selectedOption} currentFeature={feature} />
+            return <CartEntry key={featureHash} selectedOption={selectedOption} currentFeature={feature} />
           });
 
         return (

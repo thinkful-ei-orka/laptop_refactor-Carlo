@@ -9,7 +9,7 @@ class CartEntry extends React.Component {
 
     render() { 
         return (
-            <div className="summary__option" key={this.props.featureHash}>
+            <div className="summary__option">
               <div className="summary__option__label">{this.props.currentFeature} </div>
               <div className="summary__option__value">{this.props.selectedOption.name}</div>
               <div className="summary__option__cost">
