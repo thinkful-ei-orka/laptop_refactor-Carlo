@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import slugify from 'slugify';
 
 const USCurrencyFormat = new Intl.NumberFormat('en-US', {

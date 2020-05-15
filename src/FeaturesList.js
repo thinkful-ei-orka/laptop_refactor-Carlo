@@ -1,11 +1,5 @@
-import React, { Component } from 'react';
-import slugify from 'slugify';
+import React from 'react';
 import Feature from './Feature';
-
-const USCurrencyFormat = new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency: 'USD'
-  });
 
 class FeaturesList extends React.Component { 
 

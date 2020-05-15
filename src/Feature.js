@@ -1,11 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import slugify from 'slugify';
 import Option from './Options';
-
-const USCurrencyFormat = new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency: 'USD'
-  });
 
 class Feature extends React.Component { 
     render() {
