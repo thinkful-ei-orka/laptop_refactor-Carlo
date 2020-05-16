@@ -7,7 +7,7 @@ class Feature extends React.Component {
             const options = this.props.features[this.props.currentFeature].map(item => {
               const itemHash = slugify(JSON.stringify(item));
 
-              return <Option key={itemHash} currentFeature={this.props.currentFeature} features={this.props.features} updateFeature={this.props.updateFeature} selected={this.props.selected} item={item}/>
+              return <Option key={itemHash} itemHash={itemHash} currentFeature={this.props.currentFeature} features={this.props.features} updateFeature={this.props.updateFeature} selected={this.props.selected} item={item}/>
             });
       
             return (
